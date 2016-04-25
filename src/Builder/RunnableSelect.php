@@ -165,7 +165,7 @@ class RunnableSelect extends Select {
 	}
 
 	/**
-	 * @return bool
+	 * @return int
 	 */
 	public function getFoundRows() {
 		return $this->foundRows;
